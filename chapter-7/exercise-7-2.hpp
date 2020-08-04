@@ -1,3 +1,4 @@
+// ===-- chapter-7/exercise-7-2.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Modify zip_iterator category to be "least refined."

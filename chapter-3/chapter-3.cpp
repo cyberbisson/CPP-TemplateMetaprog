@@ -1,4 +1,4 @@
-
+// ===-- chapter-3/chapter-3.cpp -------------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Chapter 3: A Deeper Look at Metafunctions
@@ -23,11 +23,11 @@
  * Additional exercises:
  *
  * <pre>
- * 3-8. Our dimensional analysis framework dealt with dimensions, but it entirely
- *      ignored the issue of units.  A length can be represented in inches, feet,
- *      or meters.  A force can be represented in newtons or in kg m/sec^2.  Add
- *      the ability to specify units and test your code.  Try to make your
- *      interface as syntactically friendly as possible for the user.
+ * 3-8. Our dimensional analysis framework dealt with dimensions, but it
+ *      entirely ignored the issue of units.  A length can be represented in
+ *      inches, feet, or meters.  A force can be represented in newtons or in kg
+ *      m/sec^2.  Add the ability to specify units and test your code.  Try to
+ *      make your interface as syntactically friendly as possible for the user.
  * </pre>
  */
 

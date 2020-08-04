@@ -1,3 +1,4 @@
+// ===-- chapter-4/chapter-4-undefined_bool.hpp ----------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Define some booleans that don't compile on either true or false.
@@ -12,7 +13,8 @@
 #define CHAPTER_4_UNDEFINED_BOOL
 
 /**
- * @brief If the template parameter is false, template instantiation is an error.
+ * @brief If the template parameter is false, template instantiation is an
+ *        error.
  */
 template <bool B> struct undefined_false;
 

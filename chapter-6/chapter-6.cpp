@@ -1,4 +1,4 @@
-
+// ===-- chapter-6/chapter-6.cpp -------------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Chapter 6: Algorithms

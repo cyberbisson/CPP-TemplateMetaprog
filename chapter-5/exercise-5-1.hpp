@@ -1,3 +1,4 @@
+// ===-- chapter-5/exercise-5-1.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Double the numbers in the first half of a RandomAccessSequence.

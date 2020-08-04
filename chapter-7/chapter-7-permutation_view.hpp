@@ -1,6 +1,8 @@
+// ===-- chapter-7/chapter-7-permutation_view.hpp --------- -*- C++ -*- --=== //
 /**
  * @file
- * @brief Defines a view of a sequence that appears to alter the elements' order.
+ * @brief Defines a view of a sequence that appears to alter the elements'
+ *        order.
  *
  * @author Matt Bisson
  */
@@ -54,11 +56,13 @@ struct permutation_view_tag { };
  *
  * ...yields a sequence, [33,22,44,11,33]
  *
- * @tparam Indices  A sequence of indices into the "data" sequence.  The iterator
- *                  traverses this sequence and presents elements from the other
- *                  sequence.  The same index may be specified twice.  An index
- *                  outside the bounds of Sequence results in undefined behavior.
- * @tparam Sequence The data sequence to present when iterators are dereferenced.
+ * @tparam Indices  A sequence of indices into the "data" sequence.  The
+ *                  iterator traverses this sequence and presents elements from
+ *                  the other sequence.  The same index may be specified twice.
+ *                  An index outside the bounds of Sequence results in undefined
+ *                  behavior.
+ * @tparam Sequence The data sequence to present when iterators are
+ *                  dereferenced.
  */
 template <typename Indices, typename Sequence>
 struct permutation_view

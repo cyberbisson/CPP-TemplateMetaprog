@@ -1,3 +1,4 @@
+// ===-- chapter-6/chapter-6-tree.hpp --------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Augment the tree sequence API to allow addition of elements.

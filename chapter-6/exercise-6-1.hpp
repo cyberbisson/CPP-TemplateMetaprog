@@ -1,6 +1,8 @@
+// ===-- chapter-6/exercise-6-1.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
- * @brief Implement a binary to decimal converter as a sequence of binary digits.
+ * @brief Implement a binary to decimal converter as a sequence of binary
+ *        digits.
  *
  * <pre>
  * 6-1. Rewrite the binary template from section 1.4.1 using one of the MPL

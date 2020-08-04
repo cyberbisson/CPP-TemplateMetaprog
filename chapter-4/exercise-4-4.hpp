@@ -1,3 +1,4 @@
+// ===-- chapter-4/exercise-4-4.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Implement some new type traits with existing MPL facilities.

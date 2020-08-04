@@ -1,4 +1,4 @@
-
+// ===-- chapter-7/chapter-7.cpp -------------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Chapter 7: Views and Iterators Adaptors

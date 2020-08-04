@@ -1,4 +1,4 @@
-
+// ===-- chapter-7/exercise-7-0.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Use zip_view.

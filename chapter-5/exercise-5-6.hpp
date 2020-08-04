@@ -1,3 +1,4 @@
+// ===-- chapter-5/exercise-5-6.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Present array dimensions as a numerical sequence.

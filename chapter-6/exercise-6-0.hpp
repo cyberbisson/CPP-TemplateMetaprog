@@ -1,3 +1,4 @@
+// ===-- chapter-6/exercise-6-0.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Find the smallest type in a sequence with boost::mpl::copy.

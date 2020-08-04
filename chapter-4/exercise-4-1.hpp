@@ -1,3 +1,4 @@
+// ===-- chapter-4/exercise-4-1.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Implement my own versions of Boost MPL boolean operations.

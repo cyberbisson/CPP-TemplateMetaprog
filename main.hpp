@@ -1,3 +1,4 @@
+// ===-- main.hpp ----------------------------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief This file exists as a home for generated documentation.
@@ -36,8 +37,8 @@
  * There are a few useful make targets:
  * @li "all": This builds all the executables for each chapter.  Since this is a
  *     template metaprogramming exercise, some executables actually do very
- *     little at run-time, but building the executables does the important stuff,
- *     like compile all the C++ headers and sources.  This target can be
+ *     little at run-time, but building the executables does the important
+ *     stuff, like compile all the C++ headers and sources.  This target can be
  *     configured to use the CLang compiler or the GNU C++ compiler by setting
  *     @c USE_CLANG as an environment variable.  Additionally, all output is in
  *     "release" format, unless your environment has @c USE_DEBUG set.  The

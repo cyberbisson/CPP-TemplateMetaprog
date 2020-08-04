@@ -1,3 +1,4 @@
+// ===-- chapter-2/exercise-2-4.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Print data-types using a home-grown solution.

@@ -1,3 +1,4 @@
+// ===-- chapter-7/exercise-7-7.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Create a reverse view and iterator.

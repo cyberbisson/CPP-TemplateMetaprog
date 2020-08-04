@@ -1,3 +1,4 @@
+// ===-- chapter-3/exercise-3-6.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Rewrite twice as a lambda.

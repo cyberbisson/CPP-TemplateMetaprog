@@ -1,3 +1,4 @@
+// ===-- chapter-2/exercise-2-5.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Describe a data-type in English.
@@ -31,7 +32,7 @@ template <typename T> struct type_descriptor_eng { };
 ////////////////////////////////////////////////////////////////////////////////
 
 template <typename T>
-std::ostream& operator<<(std::ostream& os, type_descriptor_eng<T const> const&td)
+std::ostream& operator<<(std::ostream& os, type_descriptor_eng<T const> const&)
 {
     return os << "const " << type_descriptor_eng<T>();
 }

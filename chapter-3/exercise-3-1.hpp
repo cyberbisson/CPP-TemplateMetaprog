@@ -1,10 +1,11 @@
+// ===-- chapter-3/exercise-3-1.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Transform a vector by adding 1 to all its elements.
  *
  * <pre>
- * 3-1. Turn vector_c<int,1,2,3> into a type sequence with elements (2,3,4) using
- *      transform.
+ * 3-1. Turn vector_c<int,1,2,3> into a type sequence with elements (2,3,4)
+ *      using transform.
  * </pre>
  *
  * @author Matt Bisson

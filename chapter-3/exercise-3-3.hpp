@@ -1,3 +1,4 @@
+// ===-- chapter-3/exercise-3-3.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Manipulate pointers with the twice metafunction.
@@ -30,7 +31,8 @@ BOOST_STATIC_ASSERT(
      int** >::type::value));
 
 /// @brief Used twice twice to add four pointers.
-typedef twice<boost::add_pointer<_1>, double_pointer_int>::type four_pointer_int;
+typedef twice<boost::add_pointer<_1>,
+              double_pointer_int>::type four_pointer_int;
 BOOST_STATIC_ASSERT(
     (boost::mpl::equal<
      four_pointer_int,

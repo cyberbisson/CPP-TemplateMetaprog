@@ -1,10 +1,11 @@
+// ===-- chapter-3/exercise-3-2.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Square all elements in a sequence.
  *
  * <pre>
- * 3-2. Turn vector_c<int,1,2,3> into a type sequence with elements (1,4,9) using
- *     transform.
+ * 3-2. Turn vector_c<int,1,2,3> into a type sequence with elements (1,4,9)
+ *      using transform.
  * </pre>
  *
  * @author Matt Bisson

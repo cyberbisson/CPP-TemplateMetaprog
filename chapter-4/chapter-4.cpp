@@ -1,4 +1,4 @@
-
+// ===-- chapter-4/chapter-4.cpp -------------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Chapter 4: Integral Type Wappers and Operators
@@ -32,7 +32,7 @@ int main()
 
     std::vector<int> const& v_ref = v;
     std::vector<int>::const_iterator it_const = container_find(v_ref, 2);
+    printf("it %s it_const\n", (*it == *it_const) ? "==" : "!=");
 #endif
     return 0;
 }
-

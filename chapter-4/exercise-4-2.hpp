@@ -1,3 +1,4 @@
+// ===-- chapter-4/exercise-4-2.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Implement my versions of MPL boolean operations with many arguments.
@@ -25,7 +26,8 @@
  * isn't simply a boost::mpl::bool_ type.  Since the specializations operate on
  * bool_, we extract the value here, and pass it down throw a bool_.
  *
- * @tparam E1..E5 An expression that must at least have a boolean "value" member.
+ * @tparam E1..E5 An expression that must at least have a boolean "value"
+ *                member.
  */
 template <
     typename E1,

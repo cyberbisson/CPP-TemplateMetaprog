@@ -1,3 +1,4 @@
+// ===-- chapter-6/exercise-6-4.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Search a binary tree structure using an inserter.
@@ -29,8 +30,8 @@
 #include <boost/mpl/if.hpp>
 
 
-/// @brief Quick and dirty (non-iterator, I know) way to mark the end of the tree
-///        sequence...
+/// @brief Quick and dirty (non-iterator, I know) way to mark the end of the
+///        tree sequence...
 struct tree_end
 {
     typedef tree_end type;

@@ -1,3 +1,4 @@
+// ===-- chapter-3/chapter-3-twice.hpp -------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Define the twice metafunction for use in multiple exercises.

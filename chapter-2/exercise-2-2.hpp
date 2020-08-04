@@ -1,3 +1,4 @@
+// ===-- chapter-2/exercise-2-2.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Rewrite boost::polymorphic_downcast.

@@ -1,6 +1,8 @@
+// ===-- chapter-5/chapter-5-tiny.hpp --------------------- -*- C++ -*- --=== //
 /**
  * @file
- * @brief Define a "tiny" sequence with modifications from examples in Chapter 5.
+ * @brief Define a "tiny" sequence with modifications from examples in Chapter
+ *        5.
  *
  * @author Matt Bisson
  */
@@ -172,7 +174,8 @@ struct advance< tiny_iterator<Tiny,Pos>, N >
         > type;
 };
 
-/// @brief Dereferencing the iterator is the first time we actually examine tiny.
+/// @brief Dereferencing the iterator is the first time we actually examine
+///        tiny.
 template <typename Tiny, typename Pos>
 struct deref< tiny_iterator<Tiny,Pos> > : at<Tiny,Pos> { };
 
@@ -321,8 +324,8 @@ struct insert_impl<tiny_tag>
  * <pre>
  * 5-4. How could we reduce the number of template instantiations required by
  *      our implementation of push_back? (Hint: Look at our implementation of
- *      end in section 5.11.5 again.) How does that interact with the refactoring
- *      in the previous exercise?
+ *      end in section 5.11.5 again.) How does that interact with the
+ *      refactoring in the previous exercise?
  * </pre>
  */
 

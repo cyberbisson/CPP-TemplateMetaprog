@@ -1,3 +1,4 @@
+// ===-- chapter-6/exercise-6-3.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Insert into a binary tree.

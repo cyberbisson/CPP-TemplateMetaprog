@@ -1,3 +1,4 @@
+// ===-- chapter-3/exercise-3-4.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Iteratively call twice to add pointers to a type.

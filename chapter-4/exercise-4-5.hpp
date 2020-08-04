@@ -1,3 +1,4 @@
+// ===-- chapter-4/exercise-4-5.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Return different types based on parameter types.

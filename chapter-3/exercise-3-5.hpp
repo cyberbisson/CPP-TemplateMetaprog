@@ -1,3 +1,4 @@
+// ===-- chapter-3/exercise-3-5.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Add multiplication and division that honors units of measurement.
@@ -116,7 +117,6 @@ template <typename T, typename D1, typename D2>
 quantity<T,D1> operator+(quantity<T,D1> x, quantity<T,D2> y)
 {
     BOOST_STATIC_ASSERT((boost::mpl::equal<D1,D2>::type::value));
-    
     return quantity<T,D1>(x.value() + y.value());
 }
 

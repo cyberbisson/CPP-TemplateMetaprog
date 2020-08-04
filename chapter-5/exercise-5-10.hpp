@@ -1,3 +1,4 @@
+// ===-- chapter-5/exercise-5-10.hpp ---------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Write a tree structure with different view-based traversals.
@@ -72,15 +73,16 @@ struct inorder_view
 };
 
 /**
- * @brief Establish an iterator to contain in-order traversal of the binary tree.
+ * @brief Establish an iterator to contain in-order traversal of the binary
+ *        tree.
  *
  * @tparam Cur        The current (sub)tree.
  * @tparam Parent     This is an iterator to the parent of this (sub)tree, or
- *     "void_".
+ *                    "void_".
  * @tparam VisitCount This is a marker to indicate next steps during tree
- *     traversal.  In an in-order tree traversal, a visit count of 0 indicates
- *     "descent left", 1 indicates "return myself," and 2 indicates "descent
- *     right."
+ *                    traversal.  In an in-order tree traversal, a visit count
+ *                    of 0 indicates "descent left", 1 indicates "return
+ *                    myself," and 2 indicates "descent right."
  */
 template <typename Cur, typename Parent, int VisitCount>
 struct inorder_view_iterator

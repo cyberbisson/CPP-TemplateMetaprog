@@ -1,10 +1,11 @@
+// ===-- chapter-7/exercise-7-3.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Implement rotate_view sequence view.
  *
  * <pre>
- * 7-3. Use mpl::joint_view to implement a rotate_view sequence view, presenting 
- *      a shifted and wrapped view onto the original sequence:
+ * 7-3. Use mpl::joint_view to implement a rotate_view sequence view,
+ *      presenting a shifted and wrapped view onto the original sequence:
  *
  * typedef mpl::vector_c<int,5,6,7,8,9,0,1,2,3,4> v;
  * typedef rotate_view<

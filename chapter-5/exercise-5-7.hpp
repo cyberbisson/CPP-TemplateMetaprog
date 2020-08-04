@@ -1,3 +1,4 @@
+// ===-- chapter-5/exercise-5-7.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Provide bi-directional iterators to Exercise 5-6.

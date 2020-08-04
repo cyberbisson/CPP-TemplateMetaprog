@@ -1,3 +1,4 @@
+// ===-- chapter-2/exercise-2-0.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Define a metafunction to add const&.
@@ -5,7 +6,8 @@
  * <pre>
  * 2-0. Write a unary metafunction add_const_ref<T> that returns T if it is a
  *      reference type, and otherwise returns T const&.  Write a program to test
- *      your metafunction.  Hint: you can use boost::is_same to test the results.
+ *      your metafunction.  Hint: you can use boost::is_same to test the
+ *      results.
  * </pre>
  *
  * @author Matt Bisson
@@ -86,8 +88,8 @@ namespace with_boost {
 template <typename T>
 struct add_const_ref
 {
-    // For int&, add_const has no effect, then add_reference does nothing as it's
-    // already a reference type.
+    // For int&, add_const has no effect, then add_reference does nothing as
+    // it's already a reference type.
     typedef typename boost::add_reference<
         typename boost::add_const<T>::type
     >::type type;

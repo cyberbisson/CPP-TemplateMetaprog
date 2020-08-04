@@ -1,4 +1,4 @@
-
+// ===-- chapter-2/chapter-2.cpp -------------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Chapter 2: Traits and Type Manipulation
@@ -107,6 +107,7 @@ int main()
 
     TestA& a_ref = b;
     TestB& b_ref = polymorphic_downcast<TestB&>(a_ref);
+    std::cout << "Address of b_ref = " << static_cast<void*>(&b_ref) << "\n";
 #endif
 
     // --- Exercise 2-3

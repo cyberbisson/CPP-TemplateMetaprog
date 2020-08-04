@@ -1,3 +1,4 @@
+// ===-- chapter-4/exercise-4-3.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Weed out compile-time inefficiencies.

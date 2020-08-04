@@ -1,3 +1,4 @@
+// ===-- chapter-7/chapter-7-zip_view.hpp ----------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief "Zip" corresponding elements of N arrays into a sequence of N-length
@@ -102,7 +103,8 @@ struct least_refined_iterator_category
 
 /// @brief An iterator into a sequence of sequences.
 template <typename IteratorSeq, typename Category>
-struct zip_iterator : boost::mpl::transform< IteratorSeq, boost::mpl::deref<_1> >
+struct zip_iterator
+    : boost::mpl::transform< IteratorSeq, boost::mpl::deref<_1> >
 {
     typedef IteratorSeq base;
     typedef Category category;

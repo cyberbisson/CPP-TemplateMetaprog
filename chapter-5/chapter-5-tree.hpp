@@ -1,3 +1,4 @@
+// ===-- chapter-5/chapter-5-tree.hpp --------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Define a binary tree structure for future exercises.

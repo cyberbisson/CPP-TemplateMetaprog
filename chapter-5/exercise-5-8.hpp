@@ -1,3 +1,4 @@
+// ===-- chapter-5/exercise-5-8.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Write Fibonacci sequences with Boost MPL's sequence APIs.
@@ -40,7 +41,8 @@ struct fibonacci_series_tag { };
  * This will hold all the data we need, really.
  *
  * @tparam N     The current "value".
- * @tparam LastN Our previous value will be added to the current one to get next.
+ * @tparam LastN Our previous value will be added to the current one to get
+ *               next.
  */
 template <size_t N, size_t LastN>
 struct fibonacci_series_iterator

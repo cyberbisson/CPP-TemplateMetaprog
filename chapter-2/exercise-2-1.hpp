@@ -1,11 +1,12 @@
+// ===-- chapter-2/exercise-2-1.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Define a metafunction to replace types.
  *
  * <pre>
  * 2-1. Write a ternary metafunction replace_type<c,x,y> that takes an arbitrary
- *      compound type c as its first parameter, and replaces all occurrences of a
- *      type x within c with y:
+ *      compound type c as its first parameter, and replaces all occurrences of
+ *      a type x within c with y:
  *
  * typedef replace_type<void*,void, int>::type t1; // int*
  * typedef replace_type<

@@ -1,11 +1,12 @@
+// ===-- chapter-3/exercise-3-0.hpp ----------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Redefine the binary template to sanity-check its parameter.
  *
  * <pre>
  * 3-0. Use BOOST_STATIC_ASSERT to add error checking to the binary template
- *      presented in section 1.4.1, so that binary<N>::value causes a compilation
- *      error if N contains digits other than 0 or 1.
+ *      presented in section 1.4.1, so that binary<N>::value causes a
+ *      compilation error if N contains digits other than 0 or 1.
  * </pre>
  *
  * @author Matt Bisson

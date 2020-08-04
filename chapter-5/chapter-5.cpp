@@ -1,4 +1,4 @@
-
+// ===-- chapter-5/chapter-5.cpp -------------------------- -*- C++ -*- --=== //
 /**
  * @file
  * @brief Chapter 5: Sequences and Iterators
@@ -78,8 +78,7 @@ void exercise_5_3()
     BOOST_STATIC_ASSERT((boost::is_same<tiny<float, int, char>, v3>::value));
 
     // Should be an error:
-    // typedef typename boost::mpl::insert<
-    //     v2, typename boost::mpl::end<v3>::type, char>::type v3;
+    // typedef boost::mpl::insert<v2, boost::mpl::end<v3>::type, char>::type v4;
 #endif
 }
 
@@ -194,7 +193,8 @@ struct print_fibonacci
         typename boost::mpl::next<CurFibIt>::type,
         Count+1> next;
 
-    /// @brief Print the current Fibonacci number and kick off the next printout.
+    /// @brief Print the current Fibonacci number and kick off the next
+    ///        printout.
     void print() const
     {
         printf("%i ", boost::mpl::deref<CurFibIt>::type::value);
