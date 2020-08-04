@@ -71,12 +71,10 @@ void exercise_5_3()
     BOOST_STATIC_ASSERT((boost::is_same<v1::t2, none>::value));
     BOOST_STATIC_ASSERT((boost::is_same<tiny<int>, v1>::value));
 
-    typedef typename boost::mpl::insert<
-        v1, typename boost::mpl::begin<v1>::type, float>::type v2;
+    typedef boost::mpl::insert<v1, boost::mpl::begin<v1>::type, float>::type v2;
     BOOST_STATIC_ASSERT((boost::is_same<tiny<float, int>, v2>::value));
 
-    typedef typename boost::mpl::insert<
-        v2, typename boost::mpl::end<v2>::type, char>::type v3;
+    typedef boost::mpl::insert<v2, boost::mpl::end<v2>::type, char>::type v3;
     BOOST_STATIC_ASSERT((boost::is_same<tiny<float, int, char>, v3>::value));
 
     // Should be an error:

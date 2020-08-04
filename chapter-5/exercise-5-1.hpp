@@ -116,7 +116,7 @@ struct double_first_half
 
 typedef boost::mpl::vector_c<int, 1, 2, 3, 4> testVec;
 
-typedef typename double_first_half<testVec>::type testVec2;
+typedef double_first_half<testVec>::type testVec2;
 BOOST_STATIC_ASSERT((boost::mpl::equal<
                      testVec2,
                      boost::mpl::vector_c<int, 2, 4, 3, 4> >::value));
